@@ -1,4 +1,4 @@
-package com.pereira.zoopress.zoo;
+package com.pereira.zoopress.zoo.animals;
 
 public class Animal {
 
@@ -17,6 +17,10 @@ public class Animal {
 		this.animalDiet = animalDiet;
 	}
 	
+	public Animal(Specie specie){
+		this.animalSpecie = specie;
+	}
+	
 	public Animal(){}
 
 	public String getAnimalName() {
@@ -29,10 +33,6 @@ public class Animal {
 
 	public Specie getAnimalSpecie() {
 		return animalSpecie;
-	}
-
-	public void setAnimalSpecie(Specie animalSpecie) {
-		this.animalSpecie = animalSpecie;
 	}
 
 	public Habitat getAnimalHabitat() {

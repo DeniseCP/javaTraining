@@ -1,4 +1,4 @@
-package com.pereira.zoopress.zoo;
+package com.pereira.zoopress.zoo.animals;
 
 public enum Diet {
 
